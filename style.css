@@ -1,0 +1,516 @@
+html, body 
+{
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	background: #D3D4D2;
+}
+.container 
+{
+	min-height: 100%;
+	position: relative;
+}
+.header
+{
+	box-shadow: 0px 5px 10px;
+	padding-top: 1px;
+	background: #48801A;
+	height: 97px;
+	border-bottom: 2px solid #155000;
+}
+.content 
+{
+	position:relative;
+	padding: 10px;
+	padding-bottom: 120px;
+}
+.footer 
+{
+	box-shadow: 0px -2px 10px #333333;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 98px;
+	background: #000000;
+	border-top: 2px solid #333333;
+}
+#logo
+{
+	line-height: 99px;
+	height: 80px;
+	padding: 10px;
+	padding-left: 30px;
+	float: left;
+}
+
+.header ul
+{
+	position: absolute;
+	right: 20px;
+	margin: 0px;
+	top: 35px;
+}
+	
+
+.header li
+{
+	list-style: none;
+	margin: 0;
+	width: 350px;
+	letter-spacing: 3px;
+	float: left;
+}
+ul a:link, ul a:visited 
+{
+	text-decoration: none;
+	color: #FFFFFF;
+	font-weight: bold;
+	padding: 5px;
+}
+
+.Icon
+{
+	position: relative;
+	top: 6px;
+	height: 30px;
+}
+
+#witaj
+{
+	letter-spacing: 0;
+	position: relative;
+	font-weight: bold;
+	bottom: 20px;
+}
+#wyloguj
+{
+	letter-spacing: 0;
+	color: #00004d;
+	text-decoration: underline;
+}
+
+.footer ul
+{
+	position: relative;
+}
+
+.footer ul li
+{
+	list-style: none;
+	letter-spacing: 2px;
+	color: white;
+	font-weight: bold;
+	float: left;
+	padding-left: 14%;
+	text-align: center;
+}
+
+.text
+{
+	text-align: justify;
+	text-indent: 40px;
+}
+
+.title
+{
+	text-align: center;
+}
+
+#login
+{
+	box-shadow: 5px 5px 10px #000000;
+	border-radius: 20px;
+	position: relative;
+	top: 30%;
+	left: 30%;
+	width: 500px;
+	background-color: #48801A;
+	text-align: right;
+	color: #ffffff;
+	border: 2px solid #155000;
+}
+
+.field
+{
+	position: relative;
+	border: 2px solid #155000;
+	margin-left: 6px;
+	margin-right: 155px;
+}
+
+.preview
+{
+	position: relative;
+	font-weight: bold;
+	margin-left: 150px;
+}
+.text1
+{
+	color: black;
+}
+
+#textRejestracji
+{
+	position: relative;
+	margin-right: 100px;
+}
+#error
+{
+	position: relative;
+	margin-right: 140px;
+	color: #00004d;
+	font-weight: bold;
+}
+#choose
+{
+	position: relative;
+	border: 2px solid #155000;
+	margin-left: 6px;
+	margin-right: 155px;
+	width: 147px;
+}
+#hobby
+{
+	position: relative;
+	border: 2px solid #155000;
+	margin-left: 6px;
+	vertical-align: text-top;
+	margin-right: 155px;
+	height: 90px;
+	width: 147px;
+}
+
+#button
+{
+	position: relative;
+	height: 30px;
+	width: 100px;
+	background-color: #FFFF00;
+	border: 2px solid #CCCC00;
+	font-weight: bold;
+	margin-right: 205px;
+}
+
+a:link, a:visited 
+{
+	color: #000000;
+}
+
+a:hover 
+{
+	color: #D3D4D2;
+}
+
+#register
+{
+	box-shadow: 5px 5px 10px #000000;
+	border-radius: 20px;
+	position: relative;
+	top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 90px;
+	width: 500px;
+	text-align: right;
+	background-color: #48801A;
+	color: #ffffff;
+	border: 2px solid #155000;
+}
+#register1
+{
+	border-radius: 20px;
+	position: relative;
+	top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 90px;
+	width: 500px;
+	text-align: left;
+	background-color: #48801A;
+	color: #ffffff;
+	border: 2px solid #155000;
+}
+
+.error_reg
+{
+	color: #00004d;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right:110px;
+
+}
+#button1
+{
+	height: 30px;
+	width: 100px;
+	margin-left: 80px;
+	margin-top: 5px;
+	margin-right: 50px;
+	background-color: #FFFF00;
+	border: 2px solid #CCCC00;
+	font-weight: bold;
+}
+
+.produkt
+{
+	float: left;
+	padding:1%;
+	width: 14%;
+	height: 300px;
+	margin: 2% 2% 2% 2%;
+	box-shadow: 5px 5px 10px;
+	background-color: #FFFFFF;
+	text-align: center;
+}
+
+.rzad
+{
+	clear:both;
+}
+
+.opis_produkt
+{
+	font-weight: bold;
+	margin-top:10px;
+	height: 50px;
+}
+
+.cena
+{
+	font-weight: bold;
+	margin-top:10px;
+	height: 45px;
+	color: blue;
+	font-size: 25px;
+}
+
+.foto
+{
+	width:100%;
+	height:140px;
+}
+
+.btn_dodaj
+{
+	position: relative;
+	height: 30px;
+	width: 100px;
+	background-color: #FFFF00;
+	border: 2px solid #CCCC00;
+	font-weight: bold;
+}
+.content_koszyk
+{
+	background-color: #FFFFFF;
+	width: 750px;
+	margin-left: auto;
+	margin-right:auto;
+	min-height: 200px;
+	margin-top: 40px;
+	border: 2px solid #AAAAAA;
+	box-shadow: 5px 5px 10px;
+	padding-bottom: 130px;
+	text-align:center;
+
+}
+
+
+.t1 
+{
+	margin: 1em auto;
+    border-collapse: collapse;
+}
+
+.t1 th, .t1 td 
+{
+    padding: 10px 10px;
+	border: 1px solid #000000;
+}
+
+.t1 caption
+{
+	font-weight: bold;
+	margin-top: 20px;
+	font-size: 30px;
+	margin-bottom: 25px;
+	
+}
+
+.t1 thead 
+{
+    background: #48801A;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+}
+.t1 thead tr th:nth-child(2) 
+{
+    min-width: 400px;
+}
+
+.t1 tbody tr:nth-child(odd) 
+{
+    background: #D3D4D2;
+}
+
+.t1 tfoot th
+{
+    background: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.t1 tfoot tr th:nth-child(2)
+{
+	text-align: left;
+}
+.t1 tbody tr td:nth-child(4) 
+{
+    text-align: right;
+}
+  
+.ilosc
+{
+	width: 30px;
+	text-align: right;
+}
+
+.koszyk_przyciski
+{
+	margin-top: 10px;
+	position: relative;
+}
+
+.koszyk_przyciski ul
+{
+	position: relative;
+	top:60px;
+	text-align: center;
+	margin-left: 25px;
+	
+}
+
+.koszyk_przyciski li
+{
+	list-style: none;
+	margin: 0;
+	width: 200px;
+	letter-spacing: 3px;
+	float: left;
+}
+#koszyk_button
+{
+	position: relative;
+	height: 30px;
+	width: 140px;
+	background-color: #FFFF00;
+	border: 2px solid #CCCC00;
+	font-weight: bold;
+}
+
+.czysc
+{
+	clear: both;
+}
+.content_odstep
+{
+	position: relative;
+	padding-bottom: 150px;
+}	
+#brak_koszyk
+{
+	position: relative;
+	top: 150px;
+	font-weight: bold;
+	font-size: 30px;
+}
+.button2
+{
+	height: 50px;
+	width: 140px;
+	margin-left: 80px;
+	margin-top: 5px;
+	margin-right: 50px;
+	background-color: #FFFF00;
+	border: 2px solid #CCCC00;
+	font-weight: bold;
+}
+#pole_admin
+{
+	box-shadow: 5px 5px 10px #000000;
+	border-radius: 20px;
+	position: relative;
+	top: 90px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 90px;
+	width: 580px;
+	text-align: right;
+	background-color: #48801A;
+	color: #ffffff;
+	border: 2px solid #155000;
+}
+.t2
+{
+	padding-top: 50px;
+}
+.t2 td
+{
+	padding-bottom: 50px;
+}
+.t3 
+{
+	margin: 1em auto;
+    border-collapse: collapse;
+}
+
+.t3 th, .t3 td 
+{
+    padding: 10px 10px;
+	border: 1px solid #000000;
+}
+
+.t3 caption
+{
+	font-weight: bold;
+	margin-top: 20px;
+	font-size: 30px;
+	margin-bottom: 25px;
+	
+}
+
+.t3 thead 
+{
+    background: #48801A;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+}
+
+#Dane_button
+{
+	position: relative;
+	margin-left:750px;
+	height: 50px;
+	width: 140px;
+	margin-bottom: 50px;
+	background-color: #FFFF00;
+	border: 2px solid #CCCC00;
+	font-size: 20px;
+	font-weight: bold;
+}
+#Dane_button1
+{
+	position: relative;
+	margin-left:430px;
+	height: 50px;
+	width: 140px;
+	margin-bottom: 50px;
+	background-color: #FFFF00;
+	border: 2px solid #CCCC00;
+	font-size: 20px;
+	font-weight: bold;
+}
